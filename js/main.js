@@ -3,7 +3,7 @@
 	
 	// Preloader
 	$(window).on('load', function() {
-		$("#preloader").delay(1000).fadeOut();
+		$("#preloader").delay(1).fadeOut();
 	});
 
 	// Fixed Nav
