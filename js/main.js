@@ -44,7 +44,7 @@
 
 	// Home Area Height
 	function homeHeight () {
-		$('#home').css({'height': $(window).height() - $('#header').height()});
+		$('#home').css({'height': $(window).height()+6 - $('#header').height()});
 	}
 	$(window).on('resize', function() {
 		homeHeight();
